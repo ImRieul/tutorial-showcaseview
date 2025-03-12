@@ -1,0 +1,18 @@
+name: showcase_example
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  showcaseview: ^4.0.0 # 버전에 따라 달라질 수 있음
+  shared_preferences: ^2.0.15 # 튜토리얼 봤는지 여부 저장용
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
